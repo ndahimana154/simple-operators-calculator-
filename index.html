@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator</title>
+    <link rel="stylesheet" href="./assets/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>
+            Simple Calculator
+        </h1>
+        <div class="placeholder">
+            <input type="number" id="number1" placeholder="Input number 1">
+        </div>
+        <div class="operator">
+            <select id="operator">
+                <option value="Select Operator">
+                    Select Operator
+                </option>
+                <option value="+">
+                    +
+                </option>
+                <option value="-">
+                    -
+                </option>
+                <option value="/">
+                    /
+                </option>
+                <option value="*">
+                    *
+                </option>
+                <option value="**">
+                    **
+                </option>
+            </select>
+        </div>
+        <div class="placeholder">
+            <input type="number" id="number2" placeholder="Input number 2">
+        </div>
+        <div class="submit">
+            <button id="checkResult">
+                Check result
+            </button>
+        </div>
+        <div id="results">
+        </div>
+    </div>
+    <script src="./assets/script.js"></script>
+</body>
+</html>
