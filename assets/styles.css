@@ -47,3 +47,6 @@ form .display input {
 form input.equal {
     width: 135px;
 }
+form input.operator {
+    color: rgb(0, 247, 255);
+}
